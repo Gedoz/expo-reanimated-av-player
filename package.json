@@ -1,5 +1,5 @@
 {
-  "name": "expo-reanimated-av-player",
+  "name": "@gedoz/expo-reanimated-av-player",
   "version": "0.2.0",
   "description": "▶️ A high-performance, interactive and customizable video player control, built upon Reanimated v2 & GestureHandler v2.",
   "main": "lib/commonjs/index",
@@ -36,7 +36,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/alantoa/expo-reanimated-av-player",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alantoa/expo-reanimated-av-player.git"
+  },
   "author": "alantoa <toacncom@gmail.com> (https://github.com/alantoa/expo-reanimated-av-player)",
   "license": "MIT",
   "bugs": {
@@ -163,5 +166,8 @@
         }
       ]
     ]
+  },
+  "directories": {
+    "example": "example"
   }
 }
